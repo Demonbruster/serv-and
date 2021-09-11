@@ -21,9 +21,9 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>&copy; 2021 <Link href="https://www.serv-and.com/">SERV&</Link> . All rights reserved.</Slogan>
+          <Slogan>&copy; 2021 <Link href="https://www.serv-and.com/">Serv&</Link> . All rights reserved.</Slogan>
         </CompanyContainer>
-        <SocialContainer>
+        {/* <SocialContainer>
           <SocialIcons href="https://github.com/lordarcadius">
             <AiFillGithub size="3rem" />
           </SocialIcons>
@@ -36,7 +36,7 @@ const Footer = () => {
           <SocialIcons href="https://www.twitter.com/lordarcadius">
             <AiFillTwitterCircle size="3rem" />
           </SocialIcons>
-        </SocialContainer>
+        </SocialContainer> */}
       </SocialIconsContainer>
 
     </FooterWrapper>
