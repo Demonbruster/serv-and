@@ -10,19 +10,19 @@ import { Section } from "../styles/GlobalComponents";
 
 const Home = () => {
   return (
-    <Layout>
-      <Section grid>
-        <Hero />
-        <div style={{ position: "absolute", opacity:.5 }}>
-          <BgParticles />
-        </div>
-        {/* <BgAnimation /> */}
-      </Section>
-      <Projects />
-      <Technologies />
-      <Timeline />
-      <Acomplishments />
-    </Layout>
+    <>
+      <Layout>
+        <Section grid>
+          <Hero />
+          {/* <BgAnimation /> */}
+        </Section>
+        <Projects />
+        <Technologies />
+        <Timeline />
+        <Acomplishments />
+      </Layout>
+      <BgParticles />
+    </>
   );
 };
 
