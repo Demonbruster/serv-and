@@ -3,61 +3,55 @@ import Particles from "react-particles-js";
 
 export default function BgParticles() {
   return (
-    <Particles
-      height="500px"
-      width="100%"
-      params={{
-        particles: {
-          number: {
-            value: 5,
-            density: {
+    <div style={{width:"100%", height:"", position:'absolute', zIndex:"-100",overflow: 'hidden',top:0}}>
+      <Particles
+        height="4500px"
+        width="100%"
+        params={{
+          particles: {
+            number: {
+              value: 100,
+              density: {
+                enable: true,
+                value_area: 1500,
+              },
+            },
+            line_linked: {
               enable: true,
-              value_area: 800,
+              opacity: 0.03,
+            },
+            move: {
+              direction: "right",
+              speed: 0.05,
+            },
+            size: {
+              value: 1,
+            },
+            opacity: {
+              anim: {
+                enable: true,
+                speed: 1,
+                opacity_min: 0.8,
+              },
             },
           },
-          line_linked: {
-            enable: false,
-          },
-          move: {
-            speed: 1,
-            out_mode: "out",
-          },
-          shape: {
-            type: ["image"],
-            image: [
-              {
-                src: "/logo.png",
-                height: 20,
-                width: 23,
+          interactivity: {
+            events: {
+              onclick: {
+                enable: true,
+                mode: "push",
               },
-              {
-                src: "/k8s.2d579d24.svg",
-                height: 20,
-                width: 20,
+            },
+            modes: {
+              push: {
+                particles_nb: 1,
               },
-              {
-                src: "/code.b3b4c4f4.png",
-                height: 20,
-                width: 20,
-              },
-            ],
-          },
-          color: {
-            value: "#CCC",
-          },
-          size: {
-            value: 30,
-            random: false,
-            anim: {
-              enable: true,
-              speed: 4,
-              size_min: 10,
-              sync: false,
             },
           },
-        },
-        retina_detect: false,
-      }}
-    />
+          retina_detect: true,
+        }}
+      />
+     
+    </div>
   );
 }
