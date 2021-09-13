@@ -9,7 +9,7 @@ export default function BgParticles() {
       params={{
         particles: {
           number: {
-            value: 10,
+            value: 5,
             density: {
               enable: true,
               value_area: 800,
@@ -23,10 +23,10 @@ export default function BgParticles() {
             out_mode: "out",
           },
           shape: {
-            type: ["image", "circle"],
+            type: ["image"],
             image: [
               {
-                src: "/react.cd2ab268.svg",
+                src: "/logo.png",
                 height: 20,
                 width: 23,
               },
