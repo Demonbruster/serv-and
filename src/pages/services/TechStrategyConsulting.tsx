@@ -52,19 +52,19 @@ const TechStrategyConsulting = () => {
       quote: "SERVAND's strategic guidance transformed our approach to technology. Their expertise helped us modernize our platforms and accelerate our digital transformation initiatives.",
       author: "Sarah Johnson",
       title: "CTO, Enterprise Solutions Inc.",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     },
     {
       quote: "The strategic roadmap SERVAND created for our product has been instrumental in our success. They understood both the technology and business aspects, delivering a practical plan we could execute on.",
       author: "Michael Chen",
       title: "VP of Product, TechStart AI",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     },
     {
       quote: "Their security consulting helped us identify critical vulnerabilities before they became problems. The preventative measures they recommended saved us from potentially devastating breaches.",
       author: "Rebecca Torres",
       title: "CISO, FinSecure Bank",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     }
   ];
 
@@ -92,7 +92,7 @@ const TechStrategyConsulting = () => {
             <div className="md:w-1/2">
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                  src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                   alt="SERVAND Tech Strategy" 
                   className="w-full h-auto object-cover rounded-xl" 
                 />
@@ -168,7 +168,7 @@ const TechStrategyConsulting = () => {
               <div className="relative">
                 <div className="glass-card p-1 rounded-xl overflow-hidden mb-8">
                   <img 
-                    src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                    src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                     alt="SERVAND Consulting Approach" 
                     className="w-full h-auto rounded-xl" 
                   />

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PageLayout from '@/components/PageLayout';
 import { ArrowRight } from 'lucide-react';
@@ -25,7 +24,7 @@ const About = () => {
             <div className="md:w-1/2">
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                  src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                   alt="SERVAND Team" 
                   className="w-full h-auto object-cover rounded-xl" 
                 />

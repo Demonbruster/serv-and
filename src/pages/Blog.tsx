@@ -1,4 +1,3 @@
-
 import React from 'react';
 import PageLayout from '@/components/PageLayout';
 import { ArrowRight } from 'lucide-react';
@@ -20,7 +19,7 @@ const Blog = () => {
       excerpt: "Exploring upcoming trends in web development, from AI-driven development to WebAssembly and beyond.",
       category: "Technology",
       date: "May 5, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "5 min read"
     },
     {
@@ -29,7 +28,7 @@ const Blog = () => {
       excerpt: "How to ensure your digital products are accessible to all users, including those with disabilities.",
       category: "Design",
       date: "April 28, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "7 min read"
     },
     {
@@ -38,7 +37,7 @@ const Blog = () => {
       excerpt: "An in-depth look at our process for redesigning and rebuilding a fintech application to handle massive scale.",
       category: "Case Studies",
       date: "April 15, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "10 min read"
     },
     {
@@ -47,7 +46,7 @@ const Blog = () => {
       excerpt: "Exciting news about our latest partnership and what it means for our clients and products.",
       category: "Company News",
       date: "April 3, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "3 min read"
     },
     {
@@ -56,7 +55,7 @@ const Blog = () => {
       excerpt: "Strategies for fostering a data-centric approach to decision-making across all departments.",
       category: "Business",
       date: "March 22, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "6 min read"
     },
     {
@@ -65,7 +64,7 @@ const Blog = () => {
       excerpt: "Understanding edge computing and how it's reshaping application architecture for better performance.",
       category: "Technology",
       date: "March 10, 2025",
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png",
       readTime: "8 min read"
     }
   ];

@@ -48,7 +48,7 @@ const CustomClientSolutions = () => {
         "Improved user engagement by 45%",
         "Cut infrastructure costs by 30%"
       ],
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     },
     {
       client: "Healthcare Provider",
@@ -60,7 +60,7 @@ const CustomClientSolutions = () => {
         "Improved patient satisfaction scores by 28%",
         "Enhanced data security and HIPAA compliance"
       ],
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     }
   ];
 
@@ -93,7 +93,7 @@ const CustomClientSolutions = () => {
             <div className="md:w-1/2">
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                  src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                   alt="SERVAND Custom Solutions" 
                   className="w-full h-auto object-cover rounded-xl" 
                 />

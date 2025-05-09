@@ -14,7 +14,7 @@ const InHouseInnovations = () => {
         "Automated error handling",
         "Custom connectors for any data source"
       ],
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     },
     {
       name: "PulseCMS",
@@ -25,7 +25,7 @@ const InHouseInnovations = () => {
         "Localization built-in",
         "Developer-friendly SDK"
       ],
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     },
     {
       name: "SecureVault",
@@ -36,7 +36,7 @@ const InHouseInnovations = () => {
         "Audit trails and compliance reporting",
         "Seamless integration with existing systems"
       ],
-      image: "/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
+      image: "/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png"
     }
   ];
 
@@ -64,7 +64,7 @@ const InHouseInnovations = () => {
             <div className="md:w-1/2">
               <div className="relative rounded-xl overflow-hidden">
                 <img 
-                  src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                  src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                   alt="SERVAND In-House Products" 
                   className="w-full h-auto object-cover rounded-xl" 
                 />

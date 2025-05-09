@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -41,7 +40,7 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-4">
               <img 
-                src="/public/lovable-uploads/e51813d9-9b7a-4e77-a99b-b17f11a87e04.png" 
+                src="/lovable-uploads/e51813d9-9b7a-4e77-a99b-b17f11a87e04.png" 
                 alt="SERVAND Logo" 
                 className="h-8"
               />

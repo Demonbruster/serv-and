@@ -109,7 +109,7 @@ const Careers = () => {
             
             <div className="relative rounded-xl overflow-hidden h-64 md:h-auto">
               <img 
-                src="/public/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
+                src="/lovable-uploads/5ee284da-08e3-4435-9e55-a01fb0e9f601.png" 
                 alt="SERVAND Team Collaboration" 
                 className="absolute inset-0 w-full h-full object-cover"
               />
