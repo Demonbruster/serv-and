@@ -25,7 +25,7 @@ import whopickMobileImg from "../assets/images/whopick_mobile.png";
 const projects = [
   {
     id: 1,
-    title: "Who Pick Pos",
+    title: "Who Pick POS",
     category: "Business Software",
     image: whopickPosImg,
     description: "designed to streamline retail and service operations. It includes inventory management, Al-powered analytics, customer tracking, and real-time reporting all in one smart platform."
