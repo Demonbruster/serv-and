@@ -19,63 +19,30 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from "@/components/ui/pagination";
+import whopickPosImg from "../assets/images/whopick_pos.png";
+import whopickMobileImg from "../assets/images/whopick_mobile.png";
 
 const projects = [
   {
     id: 1,
-    title: "Quantum Wallet",
-    category: "Fintech",
-    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "A cutting-edge cryptocurrency management platform with advanced security features and intuitive user experience."
+    title: "Who Pick Pos",
+    category: "Business Software",
+    image: whopickPosImg,
+    description: "designed to streamline retail and service operations. It includes inventory management, Al-powered analytics, customer tracking, and real-time reporting all in one smart platform."
   },
   {
     id: 2,
-    title: "Nebula Social",
-    category: "Social Media",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Next-generation social platform focusing on privacy and meaningful connections, built with React and Node.js."
+    title: "Who Pick Mobile (Under Construction)",
+    category: "Transportation & Mobility App",
+    image: whopickMobileImg,
+    description: "A powerful multi-service mobile app built from the ground up to offer ride-hailing, parcel delivery, and food delivery"
   },
   {
     id: 3,
-    title: "Sentinel Security",
-    category: "Cybersecurity",
+    title: "Project Tracking Tool (Under Construction)",
+    category: "Task Management Tools",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Enterprise-grade security solution providing real-time threat analysis and automated response systems."
-  },
-  {
-    id: 4,
-    title: "Pulse Analytics",
-    category: "Data Science",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Sophisticated data visualization platform that transforms complex data into actionable insights."
-  },
-  {
-    id: 5,
-    title: "Horizon CMS",
-    category: "Content Management",
-    image: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Flexible and powerful content management system built for scale, with headless architecture."
-  },
-  {
-    id: 6,
-    title: "Atlas Navigator",
-    category: "Mapping & GeoData",
-    image: "https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Advanced mapping solution featuring real-time location tracking and custom data visualization layers."
-  },
-  {
-    id: 7,
-    title: "Helios Energy",
-    category: "CleanTech",
-    image: "https://images.unsplash.com/photo-1548611716-afe9a229b35d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Renewable energy management platform with predictive algorithms for optimal energy distribution."
-  },
-  {
-    id: 8,
-    title: "Nexus Health",
-    category: "Healthcare",
-    image: "https://images.unsplash.com/photo-1504439468489-c8920d796a29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Integrated healthcare platform connecting patients with providers through secure telehealth infrastructure."
+    description: "Easily manage tasks, timelines, and team collaboration in one place, with real-time updates, progress tracking, and smart tools to keep every project on schedule and every team aligned."
   },
 ];
 
