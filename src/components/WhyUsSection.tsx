@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { cn } from '@/lib/utils';
+import sectionImage from '../assets/images/sectionImg.png';
 
 const WhyUsSection = () => {
   const { ref, inView } = useInView({
@@ -55,21 +56,13 @@ const WhyUsSection = () => {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Video side */}
           <div className="glass-card overflow-hidden rounded-xl">
-            <video 
-              ref={videoRef}
+            <img
+              src={sectionImage}
               className="w-full h-full object-cover"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
-              <source src="https://assets.mixkit.co/videos/preview/mixkit-group-of-friends-working-on-a-project-4640-large.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            />
           </div>
-          
+
           {/* Features side */}
           <div className="flex flex-col justify-center">
             <ul className="space-y-8">
