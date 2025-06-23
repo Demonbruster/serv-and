@@ -50,8 +50,8 @@ const ContactSection = () => {
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+94 (767) 617-597",
+      href: "tel:+94767617597"
     },
     {
       icon: <MessageSquare className="h-6 w-6" />,
@@ -212,9 +212,9 @@ const ContactSection = () => {
             >
               <h4 className="font-semibold mb-2">Our Location</h4>
               <address className="not-italic text-pearl-dark">
-                123 Innovation Drive<br />
-                San Francisco, CA 94103<br />
-                United States
+                No.255, Main Street,<br />
+                Kuttikarach, Kinniya - 04<br />
+                Sri Lanka
               </address>
             </div>
           </div>
